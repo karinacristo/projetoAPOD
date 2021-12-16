@@ -102,11 +102,6 @@ footer {
   background: black;
   height: 50px;
   color: white;
-  font-style: italic;
   align-items: center;
   padding: 5px;
-}
-
-.textorodape {
-  margin: auto auto;
 }
