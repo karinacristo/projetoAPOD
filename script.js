@@ -7,16 +7,6 @@ $("#botao").click(function () {
       $("#tituloImagem").text(escolherData.title);
       $("#explicacao").text(escolherData.explanation);
       $("#imagem").attr("src", escolherData.url);
-      let tipoMedia = JSON.stringify(escolherData.media_type);
-      if (tipoMedia == '"image"') {
-        video.addClass("esconder");
-        imagem.attr("src", urlMidia);
-        imagem.removeClass("esconder");
-      } else {
-        video.removeClass("esconder");
-        video.attr("src", urlMidia);
-        imagem.addClass("esconder");
-      }
     },
   });
 });
